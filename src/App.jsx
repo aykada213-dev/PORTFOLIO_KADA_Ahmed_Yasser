@@ -8,7 +8,7 @@ import SectionTitle from './components/ui/SectionTitle'
 import { useLanguage } from './context/LanguageContext'
 import { translations } from './data/translations'
 import './App.css'
-
+const BASE = import.meta.env.BASE_URL;
 const navItems = [
   { key: 'about', href: '#about' },
   { key: 'experience', href: '#experience' },
@@ -34,10 +34,19 @@ function App() {
   const [isCvModalOpen, setIsCvModalOpen] = useState(false)
   const t = translations[language]
 
-  const cvLinks = {
-    en: '/files/CV_KADA_AHMED_YASSER_ENGLISH.pdf',
-    fr: '/files/CV_KADA_AHMED_YASSER%20_FRENCH.pdf'
+  const downloadCv = (url, filename) => {
+    const link = document.createElement('a')
+    link.href = url
+    link.download = filename
+    document.body.appendChild(link)
+    link.click()
+    document.body.removeChild(link)
   }
+
+  const cvLinks = {
+  en: `${BASE}files/CV_KADA_AHMED_YASSER_ENGLISH.pdf`,
+  fr: `${BASE}files/CV_FRENCH.pdf`
+}
 
   const cvHref = cvLinks[language]
   const openContactModal = () => setIsContactModalOpen(true)
@@ -93,12 +102,27 @@ function App() {
             </div>
 
             <div className="cv-modal-actions">
-              <a href={cvLinks.en} className="cv-language-btn" download onClick={closeCvModal}>
+              
+              <button
+                type="button"
+                className="cv-language-btn"
+                onClick={() => {
+                  downloadCv(cvLinks.en, 'CV_KADA_AHMED_YASSER_ENGLISH.pdf')
+                  closeCvModal()
+                }}
+              >
                 🇬🇧 English
-              </a>
-              <a href={cvLinks.fr} className="cv-language-btn" download onClick={closeCvModal}>
+              </button>
+              <button
+                type="button"
+                className="cv-language-btn"
+                onClick={() => {
+                  downloadCv(cvLinks.fr, 'CV_FRENCH.pdf')
+                  closeCvModal()
+                }}
+              >
                 🇫🇷 Français
-              </a>
+              </button>
             </div>
 
             <button type="button" className="cv-modal-close-btn" onClick={closeCvModal}>
@@ -180,7 +204,7 @@ function App() {
             </div>
             <img
               className="hero-portrait"
-              src="/images/portfolio.jpg"
+              src={`${BASE}images/portfolio.jpg`}
               alt="Kada Ahmed Yasser"
             />
           </div>

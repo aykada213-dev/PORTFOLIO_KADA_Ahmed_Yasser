@@ -1,4 +1,6 @@
+const BASE = import.meta.env.BASE_URL;
 export const translations = {
+
   en: {
     nav: {
       about: 'About',
@@ -36,7 +38,7 @@ export const translations = {
     experience: {
       title: 'Experience / Timeline',
       company: 'Samsung C&T Corporation',
-      companyLogo: '/images/Samsung.png',
+      companyLogo: `${BASE}images/Samsung.png`,
       companyLogoVariant: 'horizontal',
       role: 'Instrumentation & Control Engineer',
       location: 'Mostaganem, Algeria',
@@ -44,12 +46,12 @@ export const translations = {
       description: 'Contributed to the design, monitoring, and optimization of industrial systems across smart infrastructure and automation workflows.',
       responsibilities: ['Industrial automation and instrumentation workflows', 'Control system monitoring and system reliability analysis', 'Cross-functional engineering support for technical deployments'],
       schneider: 'Schneider Electric',
-      schneiderLogo: '/images/shnieder.png',
+      schneiderLogo: `${BASE}images/shnieder.png`,
       schneiderLogoVariant: 'horizontal',
       schneiderPeriod: 'Jan — Feb 2024',
       schneiderText: 'Internship focused on industrial electrical systems, process control, and equipment integration.',
       udes: 'UDES',
-      udesLogo: '/images/udes.jpg',
+      udesLogo: `${BASE}images/udes.jpg`,
       udesLogoVariant: 'circular',
       udesPeriod: 'January 2025',
       udesText: 'Research-focused internship at the Renewable Energy Development Center working on applied equipment and solar systems.',
@@ -111,7 +113,7 @@ export const translations = {
           title: 'M2 Multimedia Networking: Security, Deep Learning, Coding',
           subtitle: 'Université Paris-Saclay',
           period: '2026 — 2027',
-          logo: '/images/saclay.webp',
+          logo: `${BASE}images/saclay.webp`,
           logoVariant: 'horizontal',
           topics: ['Deep & Reinforcement Learning', 'Information Theory', 'Signal Processing', 'CDN', 'Data Compression', 'Network Security']
         },
@@ -119,7 +121,7 @@ export const translations = {
           title: 'State Engineering Degree in Industrial Computing & Artificial Intelligence',
           subtitle: 'HNSRESDD',
           period: '2022 — 2025',
-          logo: '/images/hns.png',
+          logo: `${BASE}images/hns.png`,
           logoVariant: 'circular',
           topics: ['Industrial Networks', 'Smart Grids', 'Big Data', 'Machine Learning', 'Deep Learning', 'Cloud Computing']
         },
@@ -127,7 +129,7 @@ export const translations = {
           title: "Master's Degree in Telecommunications",
           subtitle: 'HNSRESDD',
           period: '2022 — 2025',
-          logo: '/images/hns.png',
+          logo: `${BASE}images/hns.png`,
           logoVariant: 'circular',
           topics: ['Digital Communications', 'Signal Processing', 'Antennas & Propagation', '4G/5G Wireless Networks']
         },
@@ -135,7 +137,7 @@ export const translations = {
           title: 'CPGE — Sciences & Technologies',
           subtitle: 'ESSA Tlemcen',
           period: '2020 — 2022',
-          logo: '/images/essat.png',
+          logo: `${BASE}images/essat.png`,
           logoVariant: 'circular',
           topics: ['Sciences & Technologies', 'Preparatory Classes', 'National Engineering Entrance Examination']
         }
@@ -202,7 +204,7 @@ export const translations = {
     experience: {
       title: 'Expérience / Parcours',
       company: 'Samsung C&T Corporation',
-      companyLogo: '/images/Samsung.png',
+      companyLogo: '${BASE}images/Samsung.png',
       companyLogoVariant: 'horizontal',
       role: 'Ingénieur en instrumentation et contrôle',
       location: 'Tlemcen, Algérie',
@@ -210,12 +212,12 @@ export const translations = {
       description: 'Contribution à la conception, au suivi et à l’optimisation de systèmes industriels dans le cadre d’infrastructures intelligentes et d’automatisations.',
       responsibilities: ['Automatisation industrielle et workflows d’instrumentation', 'Suivi de systèmes de contrôle et analyse de fiabilité', 'Support technique transversale aux déploiements'],
       schneider: 'Schneider Electric',
-      schneiderLogo: '/images/shnieder.png',
+      schneiderLogo: '${BASE}images/shnieder.png',
       schneiderLogoVariant: 'horizontal',
       schneiderPeriod: 'Janv. — Fév. 2024',
       schneiderText: 'Stage centré sur les systèmes électriques industriels, le contrôle de procédés et l’intégration d’équipements.',
       udes: 'UDES',
-      udesLogo: '/images/udes.jpg',
+      udesLogo: '${BASE}images/udes.jpg',
       udesLogoVariant: 'circular',
       udesPeriod: 'Janvier 2025',
       udesText: 'Stage orienté recherche au centre de développement des énergies renouvelables sur des systèmes solaires et équipements appliqués.',
@@ -277,7 +279,7 @@ export const translations = {
           title: 'M2 Réseaux Multimédias : Sécurité, Deep Learning, Codage',
           subtitle: 'Université Paris-Saclay',
           period: '2026 — 2027',
-          logo: '/images/saclay.webp',
+          logo: '${BASE}images/saclay.webp',
           logoVariant: 'horizontal',
           topics: ['Deep Learning & Apprentissage par Renforcement', 'Théorie de l\'information', 'Traitement du signal', 'CDN', 'Compression de données', 'Sécurité des réseaux']
         },
@@ -285,7 +287,7 @@ export const translations = {
           title: 'Diplôme d’Ingénieur d’État en Informatique Industrielle & IA',
           subtitle: 'HNSRESDD',
           period: '2022 — 2025',
-          logo: '/images/hns.png',
+          logo: '${BASE}images/hns.png',
           logoVariant: 'circular',
           topics: ['Réseaux industriels', 'Smart Grids / Réseaux intelligents', 'Big Data', 'Machine Learning', 'Deep Learning', 'Cloud Computing']
         },
@@ -293,7 +295,7 @@ export const translations = {
           title: 'Master en Télécommunications',
           subtitle: 'HNSRESDD',
           period: '2022 — 2025',
-          logo: '/images/hns.png',
+          logo: '${BASE}images/hns.png',
           logoVariant: 'circular',
           topics: ['Communications numériques', 'Traitement du signal', 'Antennes & Propagation', 'Réseaux sans fil 4G/5G']
         },
@@ -301,7 +303,7 @@ export const translations = {
           title: 'CPGE — Sciences & Technologies',
           subtitle: 'ESSA Tlemcen',
           period: '2020 — 2022',
-          logo: '/images/essat.png',
+          logo: '${BASE}images/essat.png',
           logoVariant: 'circular',
           topics: ['Sciences & Technologies', 'Classes préparatoires', 'Admission aux concours d\'ingénieur']
         }
