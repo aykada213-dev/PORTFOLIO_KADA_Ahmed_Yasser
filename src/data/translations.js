@@ -42,7 +42,7 @@ export const translations = {
       companyLogoVariant: 'horizontal',
       role: 'Instrumentation & Control Engineer',
       location: 'Mostaganem, Algeria',
-      period: '2025 — 2026',
+      period: '2025 — 2026 "1 year"',
       description: 'Contributed to the design, monitoring, and optimization of industrial systems across smart infrastructure and automation workflows.',
       responsibilities: ['Industrial automation and instrumentation workflows', 'Control system monitoring and system reliability analysis', 'Cross-functional engineering support for technical deployments'],
       schneider: 'Schneider Electric',
@@ -100,7 +100,7 @@ export const translations = {
       publicationLabel: 'Publication',
       publication: 'AI-Based Forecasting for Green Hydrogen Production',
       journal: 'Green Economics · Jomard Publishing',
-      doi: 'DOI: 10.62476/ge.32.65',
+      doi: 'DOI: https://doi.org/10.62476/ge.32.65',
       conferenceLabel: 'Conference',
       conference: '2nd International Conference on Green Hydrogen',
       place: 'Khenchela, Algeria · 2023',
@@ -111,7 +111,7 @@ export const translations = {
       items: [
         {
           title: 'M2 Multimedia Networking: Security, Deep Learning, Coding',
-          subtitle: 'Université Paris-Saclay',
+          subtitle: 'Université Paris-Saclay France',
           period: '2026 — 2027',
           logo: `${BASE}images/saclay.webp`,
           logoVariant: 'horizontal',
@@ -119,7 +119,7 @@ export const translations = {
         },
         {
           title: 'State Engineering Degree in Industrial Computing & Artificial Intelligence',
-          subtitle: 'HNSRESDD',
+          subtitle: 'HNSRESDD Batna',
           period: '2022 — 2025',
           logo: `${BASE}images/hns.png`,
           logoVariant: 'circular',
@@ -127,14 +127,14 @@ export const translations = {
         },
         {
           title: "Master's Degree in Telecommunications",
-          subtitle: 'HNSRESDD',
+          subtitle: 'HNSRESDD Batna',
           period: '2022 — 2025',
           logo: `${BASE}images/hns.png`,
           logoVariant: 'circular',
           topics: ['Digital Communications', 'Signal Processing', 'Antennas & Propagation', '4G/5G Wireless Networks']
         },
         {
-          title: 'CPGE — Sciences & Technologies',
+          title: 'Classes Préparatoires (CPGE) — Sciences & Technologies',
           subtitle: 'ESSA Tlemcen',
           period: '2020 — 2022',
           logo: `${BASE}images/essat.png`,
@@ -180,7 +180,7 @@ export const translations = {
       contact: 'Contact'
     },
     hero: {
-      role: 'Ingénieur IA × Réseaux',
+      role: 'Ingénieur Réseaux & IA',
       statement: 'Concevoir des systèmes résilients avec l’intelligence au service du réseau.',
       intro: 'Je conçois des systèmes de communication pilotés par les données, des architectures réseau sécurisées et des solutions IA appliquées pour transformer des problèmes techniques complexes en impact concret.',
       buttonExplore: 'Explorer le travail',
@@ -204,20 +204,20 @@ export const translations = {
     experience: {
       title: 'Expérience / Parcours',
       company: 'Samsung C&T Corporation',
-      companyLogo: '${BASE}images/Samsung.png',
+      companyLogo: `${BASE}images/Samsung.png`,
       companyLogoVariant: 'horizontal',
       role: 'Ingénieur en instrumentation et contrôle',
-      location: 'Tlemcen, Algérie',
-      period: '2025 — 2026',
+      location: 'Mostaganem, Algérie',
+      period: '2025 — 2026 "1 année"',
       description: 'Contribution à la conception, au suivi et à l’optimisation de systèmes industriels dans le cadre d’infrastructures intelligentes et d’automatisations.',
       responsibilities: ['Automatisation industrielle et workflows d’instrumentation', 'Suivi de systèmes de contrôle et analyse de fiabilité', 'Support technique transversale aux déploiements'],
       schneider: 'Schneider Electric',
-      schneiderLogo: '${BASE}images/shnieder.png',
+      schneiderLogo: `${BASE}images/shnieder.png`,
       schneiderLogoVariant: 'horizontal',
       schneiderPeriod: 'Janv. — Fév. 2024',
       schneiderText: 'Stage centré sur les systèmes électriques industriels, le contrôle de procédés et l’intégration d’équipements.',
       udes: 'UDES',
-      udesLogo: '${BASE}images/udes.jpg',
+      udesLogo: `${BASE}images/udes.jpg`,
       udesLogoVariant: 'circular',
       udesPeriod: 'Janvier 2025',
       udesText: 'Stage orienté recherche au centre de développement des énergies renouvelables sur des systèmes solaires et équipements appliqués.',
@@ -266,7 +266,7 @@ export const translations = {
       publicationLabel: 'Publication scientifique',
       publication: 'Prévision basée sur l\'IA pour la production d\'hydrogène vert',
       journal: 'Green Economics · Jomard Publishing',
-      doi: 'DOI: 10.62476/ge.32.65',
+      doi: 'DOI: https://doi.org/10.62476/ge.32.65',
       conferenceLabel: 'Conférence / Communication',
       conference: '2e Conférence Internationale sur l\'Hydrogène Vert',
       place: 'Khenchela, Algérie · 2023',
@@ -277,25 +277,25 @@ export const translations = {
       items: [
         {
           title: 'M2 Réseaux Multimédias : Sécurité, Deep Learning, Codage',
-          subtitle: 'Université Paris-Saclay',
+          subtitle: 'Université Paris-Saclay France',
           period: '2026 — 2027',
-          logo: '${BASE}images/saclay.webp',
+          logo: `${BASE}images/saclay.webp`,
           logoVariant: 'horizontal',
           topics: ['Deep Learning & Apprentissage par Renforcement', 'Théorie de l\'information', 'Traitement du signal', 'CDN', 'Compression de données', 'Sécurité des réseaux']
         },
         {
           title: 'Diplôme d’Ingénieur d’État en Informatique Industrielle & IA',
-          subtitle: 'HNSRESDD',
+          subtitle: 'HNSRESDD Batna',
           period: '2022 — 2025',
-          logo: '${BASE}images/hns.png',
+          logo: `${BASE}images/hns.png`,
           logoVariant: 'circular',
           topics: ['Réseaux industriels', 'Smart Grids / Réseaux intelligents', 'Big Data', 'Machine Learning', 'Deep Learning', 'Cloud Computing']
         },
         {
           title: 'Master en Télécommunications',
-          subtitle: 'HNSRESDD',
+          subtitle: 'HNSRESDD Batna',
           period: '2022 — 2025',
-          logo: '${BASE}images/hns.png',
+          logo: `${BASE}images/hns.png`,
           logoVariant: 'circular',
           topics: ['Communications numériques', 'Traitement du signal', 'Antennes & Propagation', 'Réseaux sans fil 4G/5G']
         },
@@ -303,7 +303,7 @@ export const translations = {
           title: 'CPGE — Sciences & Technologies',
           subtitle: 'ESSA Tlemcen',
           period: '2020 — 2022',
-          logo: '${BASE}images/essat.png',
+          logo: `${BASE}images/essat.png`,
           logoVariant: 'circular',
           topics: ['Sciences & Technologies', 'Classes préparatoires', 'Admission aux concours d\'ingénieur']
         }
